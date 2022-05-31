@@ -164,12 +164,6 @@ div#div_carnav {
     visibility: 'visible';
 }
 
-a.group1 img
-{
-    padding-bottom: 20px;
-    /*margin-bottom: 20px;*/
-}
-
 img {
     max-width:auto; 
     height:100%;
@@ -231,6 +225,12 @@ document.addEventListener('keyup', function(event){
     if(event.key == 'ArrowUp'){
         funcPrev();
     }
+	if(event.key == 's'){
+		skrytb();	
+	}
+	if(event.key == 'o'){
+		otkrytb();
+	}
 });
 
 var sites = [];
